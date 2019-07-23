@@ -1,2 +1,2 @@
 console.log('hello');
-var sum = 2 + 5;
+const sum = 2 + 10;
