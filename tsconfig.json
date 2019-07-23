@@ -2,6 +2,14 @@
   "compilerOptions": {
     "target": "esnext",
     "watch": true,
-    "lib": ["dom", "es2017"]
-  }
+    "lib": ["dom", "es2017"],
+    "removeComments": true
+  },
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ]
 }
